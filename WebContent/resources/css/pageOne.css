@@ -1,0 +1,337 @@
+body {
+	width: 100%;
+	height:100%;
+	font-family: Cinzel;
+	color: #FEE;
+	min-height: 100vh;
+}
+
+.background{
+	flex-shrink: 0;
+	border: 1px solid #000;
+	background: #171717;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	margin: 0px;
+	line-height: normal;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.preco p{
+	font-family: Cormorant Garamond;
+}
+
+.elipse {
+    position: absolute;
+    top: 224px;
+    width: 341px;
+	height: 341px;
+	flex-shrink: 0;
+	border-radius: 341px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 2, 0, 0.11) 0%, rgba(128, 18, 49, 0.73) 100%);
+	filter: blur(166.0500030517578px);
+}
+
+.containerTeste {
+	
+	top: 0px;
+	width: 100%;
+}
+
+	
+
+
+	.lineTopHorizontal {
+	    top:105px;
+	    left:0px;
+	    width: 100%;
+		height: 1px;
+		background: rgba(134, 107, 90, 0.33);
+		position: absolute;
+		opacity: 33%;
+	}
+	
+	.lineBottomHorizontal {
+	    top:605px;
+	    left:0px;
+	    width: 55%;
+		height: 1px;
+		background: rgba(134, 107, 90, 0.33);
+		position: absolute;
+		opacity: 33%;
+	}
+	
+	.lineTopLeftVertical {
+	    top:0px;
+	    left:55%;
+	    width: 1px;
+		height: 100%;
+		background: rgba(134, 107, 90, 0.33);
+		position: absolute;
+		opacity: 33%;
+	}
+	
+	
+	
+	
+.line{
+	width: 100%;
+    display: flex;
+    height: 100%;
+    position: absolute;
+}	
+.lineCirculo02{
+	display: flex;
+    align-items: center;
+    width: 81.5%;
+    height: 100%;
+    
+    .divImg01 {
+   		width: 100%;
+    	display: flex;
+    	justify-content: center;
+    	
+    	.vinho01{
+    		bottom: 74px;
+    		position: absolute;
+    	}
+    }
+    
+    .divImg02{
+    	width: 47%;
+    	display: flex;
+    	justify-content: flex-end;
+    	height: 100%;
+    	
+    	.vinho02{
+    		height: 610px;
+    		bottom: 74px;
+    		position: absolute;
+    	}
+    	
+    }
+    
+    
+    
+}	
+.lineCirculo01{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}	
+.linha01 {
+	display: flex;
+    align-items: center;
+    margin-left: 79.35%;
+    flex-direction: column;
+}
+
+.linha02{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+	.circulo {
+		border-radius: 100px;
+	    border: 1px solid rgba(134, 107, 90, 0.33);
+	    width: 109px;
+	    height: 109px;
+	    position: relative;
+	    display: flex;
+	    align-items: center;
+    	justify-content: center;
+    	
+	}
+
+	.line-div01 {
+	border-right: 1px solid rgba(134, 107, 90, 0.33);
+    box-sizing: border-box;
+    height: 200px;
+    opacity: 33%;
+	}
+	
+	.line-div02 {
+	width: 1px;
+    height: 68.6%;
+    background: rgba(134, 107, 90, 0.33);
+    position: absolute;
+    top: 309px;
+    opacity: 33%;
+
+	}
+
+	.container-linha01{
+		display: flex;
+	    width: 100%;
+	    height: 100%;
+	    position: absolute;
+	    
+	}
+	
+	
+	.botao{
+    border: none;
+    color: #FFEEEE;
+   	background: none;
+    transition: 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+	.botao:hover{
+	    background-color: transparent;
+	    transform: scale(1.2)
+	}
+	
+	.TextCapa {
+	font-size: 6vw;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.textTop{
+	height: 68%;
+    width: 100%;
+
+	
+	.divText01{
+		/* height: 33%; */
+	}
+	.divText02{
+		/* height: 66%; */
+	}
+	.divText03{
+		/* height: 33%; */
+	}
+	
+}
+
+.textBottom{
+	height: 32%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 35px;
+    
+    .divText04{
+		width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 40px;
+        margin-right: 50px;
+	}
+	
+	.divText05{
+		width: 40%;
+		display: flex;
+	    align-items: flex-end;
+	    justify-content: flex-end;
+	    flex-direction: column;
+	    margin-right: 34px;
+	}
+	.divTextInterno06{
+		display: flex;
+        justify-content: space-evenly;
+		
+	}
+	.divTextInterno05{
+		display: flex;
+    	justify-content: space-between;
+    	padding-bottom: 20px;
+		
+	}
+}
+
+.textSubtitle{
+	margin-top: 227px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    font-size: 1.5vw;
+    font-family: Cormorant Garamond;
+    
+}
+.textSobre{
+   	margin-left: 50px;
+   	margin-right: 50px;
+    font-size: 1.5vw;
+    line-height: normal;
+    font-weight: 400;
+    font-family: Cormorant Garamond;
+    
+}
+.textBottomSubtittle{
+   	font-size: 2vw;
+   	color: #8A6E5D;
+   	
+}
+.TextBottomResenha{
+   	color: #8A6E5D;
+   	
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.textBottomIndicacao01 {
+    height: 4vh;
+    position: relative; 
+    z-index: 10;
+    background: none;
+    color: #FEE;
+    border: 1px solid #FEE;
+}
+.textBottomIndicacao02{
+  	height: 4vh;
+    position: relative; 
+    z-index: 10;
+    background: none;
+    color: #FEE;
+    border: 1px solid #FEE;
+    
+}
+.textBottomIndicacao03{
+    height: 4vh;
+    position: relative; 
+    z-index: 10;
+    background: none;
+    color: #FEE;
+    border: 1px solid #FEE;
+    
+}
+
+.divTextInterno07 {
+	
+}
+
+.divTextInterno07 button{
+	height: 5vh;
+    width: 22vh;
+    position: relative; 
+    z-index: 10;
+    background: none;
+    color: #B08B74;
+    border: 2px solid #B08B74;
+}
+
+.preco{
+	display: flex;
+    align-items: flex-end;
+}
+
+.moeda{
+	font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+
+.valor{
+	    font-size: 35px;
+}
+
+
+

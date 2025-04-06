@@ -1,0 +1,36 @@
+.agnello {
+	font-family: Cinzel;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	font: bold;
+	padding-left: 50px;
+    padding-top: 31px;
+}
+
+.menu {
+	display: flex !important;
+    justify-content: space-between;
+	color: #FEE;
+	position: absolute;
+	width: 100%;
+}
+
+.carrinhoCompras {
+	padding-right: 50px;
+    padding-top: 35px;
+    height: 35px;
+    width: 35px;
+}
+
+body {
+  	margin: 0;
+  	line-height: normal;
+  	position: absolute;
+}
+
+.cesta{
+	/* bottom: 74px; */
+}
+

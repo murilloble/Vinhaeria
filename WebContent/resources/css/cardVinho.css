@@ -1,0 +1,155 @@
+.containerVinho{
+
+}
+
+.div01Vinho{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.vinho img{
+	position: absolute;
+}
+
+.div02Vinho{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.paraVoce{
+	font-size: 48px;
+	color: #801231 !important;
+	margin-top: 25px;
+	font-family: "Cormorant Garamond";
+}
+
+.VinhosAlta{
+	font-size: 48px;
+	color: #605B59 !important;
+	margin-top: 25px;
+	font-family: "Cormorant Garamond";
+}
+
+.vinho{
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	align-items: center;
+}
+
+
+.cardVinhosContainer{
+	display: flex;
+	margin-top: 20px;
+}
+
+.cardVinho{
+	height: 350px;
+	width: 222px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.vinho:hover{
+	background: #EFF0EF;
+	cursor: pointer;
+}
+
+.visualizar{
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.visualizar p{
+	color: #8A6E5D;
+    width: 50%;
+}
+
+.lupa{
+	width: 10%;
+	margin-bottom: 36px;
+}
+
+
+.visualizar:hover{
+	opacity: 1;
+}
+
+.vinho img{
+	mix-blend-mode: multiply;
+	pointer-events: none;
+}
+
+.cardVinhoMeio{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.cardVinhoDireita{
+	margin-right: 50px;
+}
+
+
+.reservado{
+	display: flex;
+	justify-content: space-between;
+}
+
+.precoCard{
+	display: flex;
+	align-items: flex-end;
+}
+
+.plus{
+	margin-right: 20px;
+	margin-top: 7px;
+}
+
+.linhaParaVoce{
+	height: 1px;
+	width: 45%;
+	background: #801231;
+}
+
+.linhaVinhosAlta{
+	height: 1px;
+	width: 45%;
+	background: #605B59;
+}
+
+.containerParaVoce{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pReservado{
+	color: #8A6E5D !important;
+	/* font-family: "Cormorant Garamond"; */
+font-size: 24px;
+font-style: normal;
+}
+
+.moedaCard{
+	color: rgba(138, 110, 93, 0.53);
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+
+.valorCard{
+	color: #8A6E5D;
+    font-family: Cinzel;
+    font-size: 25px;
+}
+
+
+
