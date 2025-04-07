@@ -89,15 +89,16 @@ body {
     height: 100%;
     
     .divImg01 {
-   		width: 100%;
+   		width: 73%;
     	display: flex;
     	justify-content: center;
+    	position: relative;
+    	height: 100%
     	
-    	.vinho01{
-    		bottom: 74px;
-    		position: absolute;
-    	}
     }
+    
+   
+    
     
     .divImg02{
     	width: 47%;
@@ -105,17 +106,117 @@ body {
     	justify-content: flex-end;
     	height: 100%;
     	
-    	.vinho02{
-    		height: 610px;
-    		bottom: 74px;
-    		position: absolute;
-    	}
+    	
     	
     }
     
     
     
 }	
+
+#next-button img{
+	width: 100%;
+	height: 100%;
+}
+
+ #next-button{
+	width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s ease, color 0.5s ease, transform 0.5s ease;
+   
+	
+}
+
+.TextBottomResenha{
+   	color: #8A6E5D;
+    position: absolute;
+    bottom: 30px;
+   	opacity: 0;
+   	transition: opacity .500s;
+}
+
+.divTextInterno05{
+	display: flex;
+   	justify-content: space-between;
+   	padding-bottom: 20px;
+	position: relative;
+}
+.valor{
+	font-size: 35px;
+	opacity: 0;
+	transition: opacity .410s;
+	position: absolute;
+}
+
+	#next-button:hover{
+	    background-color: transparent;
+	    transform: scale(1.2)
+	}
+
+.textSubtitle{
+	/* margin-top: 227px; */
+    margin-bottom: 0;
+    margin-left: 50px;
+    font-size: 1.5vw;
+    font-family: Cormorant Garamond;
+    position: absolute;
+    opacity: 0;
+	transition: opacity .410s;
+}
+
+.textSobre{
+	opacity: 0;
+	transition: opacity .410s;
+   	margin-left: 50px;
+   	margin-right: 50px;
+    font-size: 1.5vw;
+    line-height: normal;
+    font-weight: 400;
+    font-family: Cormorant Garamond;  
+    position: absolute;
+    width: 50%;
+}
+   
+.slider{
+	bottom: 74px;
+	opacity: 0;
+	transition: opacity .500s;
+	position: absolute;
+	/* width: 100%; */
+	border-radius: 10px;
+}
+
+.vinho02{
+	opacity: 0;
+	transition: opacity .500s;
+	height: 610px;
+	bottom: 74px;
+	position: absolute;
+}
+
+.divTextInterno04{
+	position: relative;
+}
+
+.textBottomSubtittle{
+   	font-size: 2vw;
+   	color: #8A6E5D;
+   	position: absolute;
+   	bottom: 80px;
+   	opacity: 0;
+   	transition: opacity .500s;
+}
+
+
+
+.on {
+	opacity: 1;
+}
+
 .lineCirculo01{
     display: flex;
     width: 100%;
@@ -173,13 +274,31 @@ body {
 	}
 	
 	
-	.botao{
+	.next-button{
     border: none;
     color: #FFEEEE;
    	background: none;
     transition: 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
-	.botao:hover{
+
+#next-button img{
+	width: 100%;
+	height: 100%;
+}
+
+ #next-button{
+	width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s ease, color 0.5s ease, transform 0.5s ease;
+   
+	
+}
+
+	#next-button:hover{
 	    background-color: transparent;
 	    transform: scale(1.2)
 	}
@@ -198,6 +317,7 @@ body {
 
 	
 	.divText01{
+	margin-top: 227px;
 		/* height: 33%; */
 	}
 	.divText02{
@@ -215,6 +335,7 @@ body {
     flex-direction: row;
     width: 100%;
     padding-bottom: 35px;
+    margin-top: 227px;
     
     .divText04{
 		width: 100%;
@@ -226,52 +347,28 @@ body {
 	}
 	
 	.divText05{
-		width: 40%;
+		/* width: 40%;
 		display: flex;
 	    align-items: flex-end;
 	    justify-content: flex-end;
 	    flex-direction: column;
-	    margin-right: 34px;
+	    margin-right: 34px; */
+	    width: 40%;
+        display: flex;
+        margin-right: 34px;
+        flex-direction: column;
+        justify-content: flex-end;
 	}
 	.divTextInterno06{
 		display: flex;
         justify-content: space-evenly;
 		
 	}
-	.divTextInterno05{
-		display: flex;
-    	justify-content: space-between;
-    	padding-bottom: 20px;
-		
-	}
+	
 }
 
-.textSubtitle{
-	margin-top: 227px;
-    margin-bottom: 0;
-    margin-left: 50px;
-    font-size: 1.5vw;
-    font-family: Cormorant Garamond;
-    
-}
-.textSobre{
-   	margin-left: 50px;
-   	margin-right: 50px;
-    font-size: 1.5vw;
-    line-height: normal;
-    font-weight: 400;
-    font-family: Cormorant Garamond;
-    
-}
-.textBottomSubtittle{
-   	font-size: 2vw;
-   	color: #8A6E5D;
-   	
-}
-.TextBottomResenha{
-   	color: #8A6E5D;
-   	
-}
+
+
 
 p {
     margin-top: 0;
@@ -329,9 +426,6 @@ p {
     margin-bottom: 24px;
 }
 
-.valor{
-	    font-size: 35px;
-}
 
 
 

@@ -4,9 +4,11 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Projeto Vinheria</title>
 	<jsp:include page="header.jsp"/>
-	<link href="./resources/css/index.css" rel="stylesheet"/>
+<!-- 	<link href="./resources/css/index.css" rel="stylesheet"/> -->
+	<title>Projeto Vinheria</title>
+	
+
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

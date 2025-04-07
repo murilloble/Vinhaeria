@@ -4,7 +4,6 @@
 <html>
 <head>
 	<link href="./resources/css/pageTwo.css" rel="stylesheet"/>
-	  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <div class="container02">
    
