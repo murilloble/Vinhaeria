@@ -92,13 +92,10 @@ body {
    		width: 73%;
     	display: flex;
     	justify-content: center;
-    	position: relative;
+    	/* position: relative; */
     	height: 100%
     	
     }
-    
-   
-    
     
     .divImg02{
     	width: 47%;
