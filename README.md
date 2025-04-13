@@ -1,5 +1,3 @@
-### Arquivo para documentação e instruções de funcionamento:
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
